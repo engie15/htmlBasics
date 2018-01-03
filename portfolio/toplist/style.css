@@ -1,3 +1,13 @@
+.screenshot {
+    max-width: 460px;
+    box-sizing: border-box;
+}
+
 .description {
-    color: red;
+    max-width: 705px;
+    box-sizing: border-box;
+}
+
+.app {
+    display: flex;
 }
