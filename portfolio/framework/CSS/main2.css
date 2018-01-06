@@ -1,0 +1,134 @@
+/*if you have alot of text in an area you can use overflow auto to be able to keep all text in the one area and add a scrolling button to view*/
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+* {
+    font-family: 'Lato', sans-serif;
+}
+.row {
+    width: 100%;
+    display: flex; 
+    /*you can also use flex-wrap: wrap; which acts similar to display flex*/
+}
+.row1 {
+    width: 100%;
+    display: flex; 
+    border-bottom: 2px solid #BCBBBB;
+}
+.imagerow {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /*you can also use flex-wrap: wrap; which acts similar to display flex*/
+}
+.col-1 {
+    width: 8.33%;
+}
+.col-2 {
+    width: 16.66%;
+}
+.col-3 {
+    width: 25%;
+}
+.col-4 {
+    width: 33.33%;
+    padding-bottom: 0px;
+    margin: 0 auto;
+}
+.col-5 {
+    width: 41.65%;
+}
+.col-6 {
+    width: 49.98%;
+    text-align: right;
+    font-size: 36px;
+    letter-spacing: 3px;
+    font-style: normal;
+    color: #747704;
+    padding-top: 20px;
+}
+.column-6 {
+    width: 49.98%;
+}
+.col-7 {
+    width: 58.31%;
+}
+.col-8 {
+    width: 66.64%;
+}
+.col-9 {
+    width: 74.97%;
+}
+.col-10 {
+    width: 83.3%;
+}
+.col-11 {
+    width: 91.63%;
+}
+.col-12 {
+    width: 100%;
+}
+.grid {
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 100%;
+}
+p {
+font-size: 12px;
+}
+.image {
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 0px; 
+}
+h2 {
+    display: block;
+    letter-spacing: 3px;
+    font-style: normal;
+    color: #bcbbbb;
+}
+.bottom-image {
+    padding-top: 21%;
+    padding-bottom: 0px;
+}
+.bottom-image2 {
+    padding-bottom: 0px;
+    margin-right: 0px;
+}
+h3 {
+    letter-spacing: 3px;
+    font-style: normal;
+    color: #747704;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 0;
+    padding-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.logo {
+    padding-bottom: 3%;
+}
+.website {
+    font-size: 12px;
+    font-style: normal;
+    font-color: #747704;
+    text-align: center;
+    padding-top: 0%;
+    margin-top: 0%;
+}
+.bottom-image3 {
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-top: 21%;
+    margin-right: 0px;
+}
+.column-4 {
+    padding-right: 0px;
+    margin-right: 0%;
+    margin: 0 auto;
+}
